@@ -136,6 +136,11 @@ header a:hover{
     height: 128px;
 }
 
+/* Column */
+.column img{
+    width: 135px;
+    height: 135px;
+}
 /* Sidebar */
 aside#sidebar{
     float: right;
