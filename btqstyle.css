@@ -20,19 +20,27 @@ ul{
 
 .button_1{
     height: 38px;
-    background: darksalmon;
+    background: darkred;
     padding-left: 20px;
     padding-right: 20px;
     color: #ffffff;
 }
 
+.dark{
+    padding: 15px;
+    background:darkred;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Header */
 header{
-    background: #35424a;
+    background: rgb(3, 3, 3);
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: darkred 3px solid;
 }
 
 header a{
@@ -62,7 +70,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color: darksalmon;
+    color: darkred;
     font-weight: bold;
 }
 
@@ -93,7 +101,7 @@ header a:hover{
 #newsletter {
     padding: 15px;
     color: #ffffff;
-    background:#35424a;
+    background:rgb(3, 3, 3);
 }
 
 #newsletter h1{
@@ -128,10 +136,22 @@ header a:hover{
     height: 128px;
 }
 
+/* Sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+/* Article- Main Col */
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
 footer{
     padding: 20px;
     margin-top: 20px;
     color: white;
-    background-color: darksalmon;
+    background-color: darkred; 
     text-align: center;
 }
